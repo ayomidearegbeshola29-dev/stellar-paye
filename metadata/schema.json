@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DripWear Garment Metadata",
+  "description": "Standard schema for linking physical/digital garments to Drips Network",
+  "type": "object",
+  "required": ["garment_id", "designer", "drips_config"],
+  "properties": {
+    "garment_id": {
+      "type": "string",
+      "description": "Unique identifier for the garment (e.g., bucket-hat-001)",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "designer": {
+      "type": "string",
+      "description": "Stellar address of the primary designer",
+      "pattern": "^G[A-Z0-9]{55}$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable garment name"
+    },
+    "description": {
+      "type": "string",
+      "description": "Garment story and design philosophy"
+    },
+    "drips_config": {
+      "type": "object",
+      "required": ["splits"],
+      "properties": {
+        "splits": {
+          "type": "array",
+          "description": "Revenue split configuration",
+          "items": {
+            "type": "object",
+            "required": ["address", "weight"],
+            "properties": {
+              "address": {
+                "type": "string",
+                "pattern": "^G[A-Z0-9]{55}$"
+              },
+              "weight": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 100
+              },
+              "label": {
+                "type": "string",
+                "description": "Optional label (e.g., 'Designer', 'Charity', 'Protocol Fee')"
+              }
+            }
+          }
+        }
+      }
+    },
+    "model_uri": {
+      "type": "string",
+      "description": "IPFS/Arweave URI for 3D model (GLB/OBJ)",
+      "pattern": "^(ipfs://|ar://|https://)"
+    },
+    "physical": {
+      "type": "object",
+      "properties": {
+        "nfc_tag_id": {
+          "type": "string",
+          "description": "NFC chip UID"
+        },
+        "qr_code": {
+          "type": "string",
+          "description": "QR code data"
+        },
+        "materials": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "size": {
+          "type": "string",
+          "enum": ["XS", "S", "M", "L", "XL", "XXL", "One Size"]
+        }
+      }
+    },
+    "edition": {
+      "type": "object",
+      "properties": {
+        "number": {
+          "type": "integer",
+          "description": "Edition number (e.g., 1 of 100)"
+        },
+        "total": {
+          "type": "integer",
+          "description": "Total editions"
+        }
+      }
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

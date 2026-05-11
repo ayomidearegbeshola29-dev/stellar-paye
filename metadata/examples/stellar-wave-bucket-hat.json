@@ -1,0 +1,37 @@
+{
+  "garment_id": "stellar-wave-bucket-hat-001",
+  "designer": "GDESIGNEREXAMPLEADDRESS123456789ABCDEFGHIJKLMNOPQRST",
+  "name": "Stellar Wave Bucket Hat",
+  "description": "Limited edition bucket hat celebrating the Stellar Wave. Features embroidered constellation pattern and NFC chip for on-chain authentication.",
+  "drips_config": {
+    "splits": [
+      {
+        "address": "GDESIGNEREXAMPLEADDRESS123456789ABCDEFGHIJKLMNOPQRST",
+        "weight": 80,
+        "label": "Designer"
+      },
+      {
+        "address": "GCHARITYEXAMPLEADDRESS123456789ABCDEFGHIJKLMNOPQRSTU",
+        "weight": 15,
+        "label": "Ocean Conservation Fund"
+      },
+      {
+        "address": "GDRIPSTREASURYADDRESS123456789ABCDEFGHIJKLMNOPQRSTUV",
+        "weight": 5,
+        "label": "Drips Protocol Fee"
+      }
+    ]
+  },
+  "model_uri": "ipfs://QmExampleHash123456789/stellar-wave-bucket-hat.glb",
+  "physical": {
+    "nfc_tag_id": "04:A1:B2:C3:D4:E5:F6",
+    "qr_code": "https://dripwear.app/scan/stellar-wave-bucket-hat-001",
+    "materials": ["100% organic cotton", "recycled polyester lining"],
+    "size": "One Size"
+  },
+  "edition": {
+    "number": 1,
+    "total": 100
+  },
+  "created_at": "2026-05-11T14:54:26Z"
+}

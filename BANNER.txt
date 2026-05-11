@@ -1,0 +1,74 @@
+
+ ____       _     __        __
+|  _ \ _ __(_)_ _\ \      / /__  __ _ _ __
+| | | | '__| | '_ \ \ /\ / / _ \/ _` | '__|
+| |_| | |  | | |_) \ V  V /  __/ (_| | |
+|____/|_|  |_| .__/ \_/\_/ \___|\__,_|_|
+             |_|
+
+╔═══════════════════════════════════════════════════════════╗
+║                                                           ║
+║        🌊  On-Chain Fashion Protocol for Stellar  🌊      ║
+║                                                           ║
+║  Turn physical garments into programmable value streams  ║
+║                                                           ║
+╚═══════════════════════════════════════════════════════════╝
+
+┌─────────────────────────────────────────────────────────┐
+│  FEATURES                                               │
+├─────────────────────────────────────────────────────────┤
+│  ✓ Soroban Smart Contracts                             │
+│  ✓ NFC/QR Tag Integration                              │
+│  ✓ Revenue Split Automation                            │
+│  ✓ 3D Garment Metadata Standard                        │
+│  ✓ React Web App with Stellar SDK                      │
+│  ✓ Drips Network Integration                           │
+└─────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────┐
+│  QUICK START                                            │
+├─────────────────────────────────────────────────────────┤
+│  $ ./setup.sh                                           │
+│  $ cd contracts && ./build.sh                           │
+│  $ cd web-app && npm run dev                            │
+└─────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────┐
+│  STELLAR WAVE READY                                     │
+├─────────────────────────────────────────────────────────┤
+│  📦 10 Contribution Issues (100-350 points each)        │
+│  🎨 Design + Development Opportunities                  │
+│  💧 Automatic Reward Distribution via Drips             │
+│  🌊 Total Available Points: 2,250+                      │
+└─────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────┐
+│  PROJECT STRUCTURE                                      │
+├─────────────────────────────────────────────────────────┤
+│  contracts/     → Soroban smart contracts (Rust)        │
+│  metadata/      → 3D garment schemas (JSON)             │
+│  web-app/       → React frontend (Vite)                 │
+│  .github/       → Contribution system                   │
+└─────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────┐
+│  DOCUMENTATION                                          │
+├─────────────────────────────────────────────────────────┤
+│  📖 README.md           - Project overview              │
+│  🚀 GETTING_STARTED.md  - Quick start guide             │
+│  🌐 DEPLOYMENT.md       - Production deployment         │
+│  📊 PROJECT_SUMMARY.md  - Complete breakdown            │
+│  🏗️  PROJECT_STRUCTURE.md - Architecture details        │
+└─────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────┐
+│  LINKS                                                  │
+├─────────────────────────────────────────────────────────┤
+│  🌐 Drips Network:  https://drips.network               │
+│  ⭐ Stellar Soroban: https://soroban.stellar.org        │
+│  💬 Discord:         Coming soon                        │
+└─────────────────────────────────────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Built with 💧 for the Stellar Wave | MIT License
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
